@@ -1,0 +1,8 @@
+.container{
+    width: 29px;
+}
+@media (width:1225px) {
+    .container{
+        width: 100%;
+    }
+}

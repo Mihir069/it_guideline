@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        body {
+            background-color: beige;
+            font-size: 1.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-div">
+        <h2>SignUp Form</h2>
+        <form method="post" action="/signup">
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" placeholder="Username" required>
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <br>
+            <button type="button" class="signup-btn">SignUp</button>
+
+        </form>
+    </div>
+</body>
+</html>

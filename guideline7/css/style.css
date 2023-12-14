@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#petContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.petCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.petProperty {
+    font-weight: bold;
+}
